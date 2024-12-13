@@ -18,7 +18,7 @@ A base plugin for agents that need to generate services or tasks for other agent
 
 Ideal for implementing coordinator agents, task managers, or any agent that needs to delegate work to other agents in the swarm.
 
-### plugin-fxn-consumer
+### plugin-fxn-consumer (coming soon)
 
 A base plugin for agents that need to receive and process tasks from other agents. This plugin handles:
 - Automated service discovery and subscription using the SuperSwarm marketplace
