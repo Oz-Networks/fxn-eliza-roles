@@ -1,0 +1,30 @@
+{
+    "name": "@eliza/plugin-fxn-provider",
+    "version": "0.1.0",
+    "description": "FXN Network Provider Plugin for Eliza",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "clean": "rimraf .turbo node_modules dist",
+        "test": "vitest run"
+    },
+    "dependencies": {
+        "@ai16z/eliza": "workspace:*",
+        "vitest": "^1.0.0",
+        "@coral-xyz/anchor": "^0.28.0",
+        "@solana/web3.js": "^1.87.0",
+        "@solana/spl-token": "^0.3.8",
+        "fxn-protocol-sdk": "https://github.com/Oz-Networks/fxn-protocol-sdk#main"
+    },
+    "devDependencies": {
+        "tsup": "^7.2.0",
+        "typescript": "^5.2.2",
+        "rimraf": "^5.0.1"
+    },
+    "peerDependencies": {
+        "@eliza/core": "workspace:*"
+    }
+}
